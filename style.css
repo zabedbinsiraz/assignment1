@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    
+    font-family: 'Roboto', sans-serif;
+}
+.nav-bar{
+    text-align: right;
+    margin-top: 20px;
+
+    
+}
+.nav-bar a{
+    text-decoration: none;
+    color:gray;
+    background-image: linear-gradient(180deg,white,whitesmoke);
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.welcome{
+    margin: 50px 0px;
+}
+
+.welcome h1{font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: #363958;
+    word-spacing: 5px;
+}
+
+#name-highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+}
+
+.anchor-link{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(90deg,salmon,tomato);
+    border: none;
+    border-radius: 5px;
+    margin: 40px 0px;
+    color: white;
+
+}
+
+.about-me{
+
+    margin: 50px 0px;
+}
+.project-ex{
+    clear: both;
+    background-color:whitesmoke;
+    padding-top:70px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 100px 0px;
+    
+}
+.project-ex h1{
+    font-size: 50px;
+}
+
+
+.project-section{
+
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 500px;
+    padding: 0 5%;
+    
+  
+
+}
+
+.card{
+
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin: 20px;
+        box-shadow: 1px 2px 4px gray;
+        background-color: white;
+    
+    
+}
+.img-style{
+  width:95%;
+  padding:5%;
+
+}
+
+.card-title{
+    text-align: center;
+}
+.card-desc{
+    text-align: center;
+}
+
+footer{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.chat-box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-image: url(images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    margin: 70px 210px;
+    border-radius: 30px;
+    color: white;
+}
+.workinq{
+    padding-right: 120px;
+    font-size: 30px;
+}
+.chat{
+    padding-left: 100px;
+}
+
+footer a img{
+    height: 30px;
+    width: 30px;
+    
+    padding:8px;
+}
+p{
+    text-align: justify;
+    padding: 15px;
+}
+h1,h2,h4{
+    font-family: 'Bebas Neue', cursive;
+}
+footer h4{
+    color: gray;
+}
+footer p{
+    font-size: 12px;
+}
